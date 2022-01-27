@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Fifthrow from "./Components/FiifthRow/FifthRow";
+import Firstimageslider from "./Components/FirstImageSlider/FirstImageSlider";
+import Firstrow from "./Components/FirstRow/FirstRow";
+import Fourthrow from "./Components/FourthRow/FourthRow";
+import Navbar from "./Components/Navbar/Navbar";
+import Secondrow from "./Components/SecondRow/SecondRow";
+import SixthRow from "./Components/SixthRow/SixthRow";
+import Thirdrow from "./Components/ThirdRow/ThirdRow";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Firstrow />
+      <Secondrow />
+      <Firstimageslider />
+      <Thirdrow />
+      <Fourthrow />
+      <Fifthrow />
+      <SixthRow />
+    </>
   );
-}
+};
 
 export default App;

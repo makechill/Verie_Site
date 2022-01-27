@@ -1,0 +1,55 @@
+.first_row_container {
+  padding: 1.1rem 9rem 1.5rem 9rem;
+}
+
+.bg_image_container {
+  background-image: url("https://images.unsplash.com/photo-1642755468213-00474d65e139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 54vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_text {
+  color: white;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.overlap_one_container {
+  background-color: rgb(255, 128, 96);
+  width: 90%;
+  margin: 0 auto;
+  height: 20vh;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlap_one {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.overlap_two_container {
+  background-color: black;
+  width: 170px;
+  margin: 0 auto;
+  height: 5vh;
+  transform: translateY(-250%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlap_two {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}

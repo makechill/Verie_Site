@@ -1,0 +1,99 @@
+.fourth_row_main_container {
+  /* padding: 1.1rem 10rem 15rem 10rem; */
+  margin-top: 60px;
+}
+
+.fourth_row_container {
+  padding: 1.1rem 10rem 15rem 10rem;
+  background-color: rgb(255, 250, 228);
+}
+
+.arrivals_container {
+  width: 270px;
+  height: 5vh;
+  transform: translateY(-100%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.arrivals {
+  color: Black;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.card_image_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_images {
+  width: 285px;
+  height: 380px;
+}
+
+.category {
+  margin: 25px 0;
+  color: rgb(156, 156, 156);
+}
+
+.product_name,
+.price {
+  font-weight: bold;
+}
+
+.sunglass_main_container {
+  padding: 1.1rem 10rem 1.5rem 5rem;
+}
+
+.sunglass_container {
+  display: flex;
+  transform: translateY(-55%);
+}
+
+.sunglass_text_container {
+  background-color: black;
+  width: 170px;
+  margin: 0 auto;
+  height: 5vh;
+  transform: translate(50%, 500%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sunglass_text {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.sunglass_image_container {
+  background-image: url("https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 54vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.sunglass_image_text {
+  margin-right: 50px;
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.border_main_container {
+  padding: 1.1rem 10rem 15rem 10rem;
+  transform: translateY(-60%);
+}
+
+.border_container {
+  border-bottom: 1px solid rgb(255, 67, 43);
+}

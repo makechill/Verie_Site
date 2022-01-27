@@ -1,0 +1,28 @@
+.fifth_row_container {
+  padding: 1.1rem 10rem 1.5rem 10rem;
+  margin-top: 300px;
+  transform: translateY(-280%);
+}
+
+.fifth_row_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.free_shipping_container,
+.easy_returns_container,
+.stylists_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+}
+
+.fifth_row_container i {
+  font-size: 100px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: black;
+}
